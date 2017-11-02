@@ -1,0 +1,583 @@
+\documentclass[CJKutf8]{beamer}
+
+% This file is a solution template for:
+
+% - Talk at a conference/colloquium.
+% - Talk length is about 20min.
+% - Style is ornate.
+
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice. 
+
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  % or ...
+
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+\usepackage{graphicx}
+
+\usepackage{CJKutf8}
+
+\usepackage{CJKulem}
+
+\usepackage{textcomp}
+
+\newenvironment{SC}{%
+  \CJKfamily{gbsn}%
+  \CJKtilde
+  \CJKnospace}{}
+
+\newenvironment{JP}{%
+  \CJKfamily{min}%
+  \CJKtilde
+  \CJKnospace}{}
+
+\usepackage[english]{babel}
+% or whatever
+
+%\usepackage[latin1]{inputenc}
+% or whatever
+
+\usepackage{times}
+%\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+\begin{CJK}{UTF8}{}
+\begin{SC}
+% Take \title \author \date from preamble to the document, 
+% otherwise CJK will show incorrectly. 
+\end{SC}
+\end{CJK}
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+%\beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+\begin{CJK}{UTF8}{}
+\begin{SC}
+
+\title{2009年7月14日至9月30日工作报告}
+\author{Sun~~~Ge}
+\date{\today}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+
+% Structuring a talk is a difficult task and the following structure
+% may not be suitable. Here are some rules that apply for this
+% solution: 
+
+% - Exactly two or three sections (other than the summary).
+% - At *most* three subsections per section.
+% - Talk about 30s to 2min per frame. So there should be between about
+%   15 and 30 frames, all told.
+
+% - A conference audience is likely to know very little of what you
+%   are going to talk about. So *simplify*!
+% - In a 20min talk, getting the main ideas across is hard
+%   enough. Leave out details, even if it means being less precise than
+%   you think necessary.
+% - If you omit details that are vital to the proof/implementation,
+%   just say so once. Everybody will be happy with that.
+
+\section{工作小结}
+
+\subsection{岸上实验室工作小结}
+
+\begin{frame}{我在岸上实验室做了哪些工作}%{subtitle is optional}
+  % - A title should summarize the slide in an understandable fashion
+  %   for anyone how does not follow everything on the slide itself.
+
+  \begin{itemize}
+  \item
+    累计时间：7月份5工作日、8月份10工作日、9月份5工作日，共计20工作日，约160小时。
+    \pause
+  \item
+    和同学一起提取MC-RR，MC-LR。
+  \item
+    排除Waters半制备色谱仪故障2次，岛津HPLC故障1次。
+  \item
+    配制水化试验标准溶液4种1批次。    
+  \item
+    装填C18富集柱等试验准备工作。
+  \item
+    阅读菲尼根、Waters、岛津手册及阅读老师专著。
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}{我在岸上试验室学习到了什么？}
+通过和同学一起学习，逐步了解几种大型分析仪器的原理，使用、维护、修理方法。
+
+    \begin{itemize}
+    \item
+      岛津HPLC
+      \pause
+    \item    
+      Waters半制备色谱
+      \pause
+    \item
+      菲尼根LC-MS
+    
+    \end{itemize}
+
+\end{frame}
+
+%  \item
+%    using overlay specifications:
+%    \begin{itemize}
+%    \item<3->
+%      First item.
+%    \item<4->
+%      Second item.
+%    \end{itemize}
+
+\begin{frame}{我在岸上试验室里学习到了什么？}
+
+和同学一起学习，逐步了解了一些设备的原理和使用方法：
+    \begin{itemize}
+    \item 蒸馏水机、纯水机
+    \item 烘箱、马弗炉
+    \item 冻干机、真空干燥器
+    \item 微型旋转蒸发仪、旋转蒸发仪
+    \item 低温摇床、冷冻离心机
+    \item 电磁搅拌器、pH计、紫外可见分光计
+    \item 超声波细胞破碎仪、离心机、振荡器
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{我在岸上试验室学习到了什么？}
+和同学一起，\emph{初步}了解了一些试验方法和常识
+  \begin{itemize}
+  \item 微囊藻毒素的提取过程与分析方法
+  \item 用酶标仪测定水中叶绿素含量的方法
+  \item 试验设备的布置
+  \item 试剂、工具、消耗品的位置
+  \end{itemize}
+\end{frame}
+
+\subsection{太湖站工作小结}
+
+\begin{frame}{我在太湖站做了哪些工作}
+  \begin{itemize}
+  \item
+  累计时间：7月份7工作日，8月份14工作日，9月份19工作日共计40工作日。
+  \pause
+  \item 全太湖采样2次，4工作日
+  \item 贡湖及望虞河望亭、常熟枢纽采样2次
+  \item 华庄围隔取样10次
+  \item 太湖站水分析试验室勤务34工作日
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{我在太湖站学到了什么？}
+通过向同学学习，初步掌握了湖泊生态学研究的一些方法和常识
+  \begin{itemize}
+  \item 使用有机玻璃采水器采集水样
+  \item 使用浮游生物网采集浮游生物
+  \item 测定水深
+  \item 测定透明度
+  \item 测定水温
+  \item 需要现场进行的前处理项目
+    \begin{itemize}
+       \item 使用浮游生物网过滤湖水
+       \item 使用福尔马林固定水中的微生物
+       \item 使用硫酸锰和碱性碘化钾固定水中的溶解氧
+    \end{itemize}
+  \item 天气状况记录、现场摄影以及其他用传感器测定的项目
+  \item 使用采泥器采集底泥
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{我在太湖站学到了什么？}
+和同学一起学习，初步了解了太湖水环境监测的常识
+  \begin{itemize}
+  \item 太湖地理、气候、周边环境概况
+  \item 监测点与监测频度
+  \item 测定指标
+  \item 对7、8月蓝藻水华状况有了一定了解
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{我在太湖站学到了什么？}
+向同学请教，逐步掌握或强化了一些试验方法
+  \begin{itemize}
+  \item 水样的前处理方法
+     \begin{itemize}
+     \item 异味物质试样
+     \item 叶绿素试样
+     \item 微囊藻毒素试样
+     \item 显微镜检试样
+     \end{itemize}
+  \item 水化学指标的测定方法
+  \item pH、COD测定法
+  \item 722型光栅分光光度计使用法
+  \item 三洋高压蒸汽灭菌锅使用法
+  \item 岛津紫外/可见分光光度计使用法
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{我在太湖站做了哪些工作方法的改进？}
+  \begin{block}{总氮测定：试样消解时比色管的封口方法改进}
+    在马师姐指导下改进的方法是，采用铝箔（锡箔纸）覆盖比色管口，边缘用手压紧，不留空隙，在铝箔上标记。原封口方法为，管口用玻璃塞塞紧，外包有记号的纱布，用橡皮筋固定。
+  \end{block}
+  \begin{itemize}
+  \item 经试验，两种封口方法在消解时损失的水分是一样多的
+  \item 推断两种方法消解时损失的氨态氮也相同
+  \item 铝箔封口能节省2/3的封口时间
+  \item 铝箔封口能节省去掉纱布、第二次标记号码的时间
+  \end{itemize}
+\end{frame}
+
+\section{对岸上试验室的改进建议}
+
+\subsection{现状}
+
+\begin{frame}
+  \begin{exampleblock}{岸上试验室的不足之处（硬件）}
+    \begin{itemize}
+    \item 试剂摆放混乱，柜子外没有内容标记
+    \item 一种试剂有还是一瓶都没有了，很难确定
+    \item 玻璃器皿、用具、消耗品摆放比较混乱
+    \item 放在抽屉里的是什么东西，不打开抽屉就不知道
+    \item 试验台上的器具沾染了灰尘，可是却有一些空抽屉
+    \item 需要不时取用的东西要花很长时间找到
+    \end{itemize}
+  \end{exampleblock}
+\end{frame}
+
+\begin{frame}
+  \begin{exampleblock}{岸上试验室的不足之处（软件）}
+    \begin{itemize}
+    \item 做水化试验找不到SOP
+    \item 用分析天平、pH计，找不到校正方法
+    \item 用不熟悉的仪器时找不到使用说明
+    \end{itemize}
+  \end{exampleblock}
+\end{frame}
+
+%\begin{frame}{为什么会这样？全世界人民震惊了}
+%\includegraphics{shock.jpg}
+%\end{frame}
+
+\subsection{改进建议}
+
+\begin{frame}{硬件：没有试剂柜怎么办？}
+  \begin{block}{解决方案}
+    \begin{enumerate}
+    \item 将试剂分类
+    \item 不常用试剂、固体试剂、避光试剂放入试验台下的柜子
+    \item 在柜子外面贴上标签，依照摆放次序标记内容物
+    \item 常用液体试剂集中摆放在靠近通风橱的试验台上
+    \end{enumerate}
+  \end{block}
+  \pause
+  这样做的好处有：
+  \begin{itemize}
+  \item 不需要打开柜子就知道内容物
+  \pause
+  \item 减少下蹲次数
+  \pause
+  \item 节省找试剂的时间
+  \pause
+  \item 如果试剂用完了能及时发现和订购
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{硬件：要用时立刻得到干净的器皿！（通用篇）}
+  \begin{block}{解决方案}
+    \begin{enumerate}
+    \item 把试验台的抽屉清洁干净
+    \item 把烧杯、圆底烧瓶、三角瓶、量筒、容量瓶、移液管、胶头滴管、称量瓶等玻璃器皿清洗干净、烘干或晾干
+    \item 把干燥、干净的玻璃器皿分别存放于抽屉内
+    \item 在抽屉外做好内容物标记
+    \item 把干燥、干净的称量瓶放入干燥器中
+    \item 使用器皿后，清洗，放入烘箱内或烘箱上的篮子里。
+    \pause
+    \item 每天检查一次烘箱和烘箱上的篮子，把干燥好的玻璃器皿放入我们设定的地点
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}{硬件：要用时立刻得到干净的器皿！（通用篇）}
+  这样做的好处有：
+  \begin{itemize}
+  \item 立即从抽屉中得到需要的器皿
+  \pause
+  \item 充分信任器皿的洁净程度
+  \pause
+  \item 如果器皿不足能即时发现和订购
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{硬件：要用时立刻得到干净的器皿！（专用篇）}
+  \begin{block}{解决方案}
+    \begin{enumerate}
+    \item 把微孔过滤用瓶、旋转蒸发用连接器、流动相配制用量筒等为单一过程服务、且不会交叉污染的器皿作为专用器皿
+    \item 将专用器皿放入抽屉或者柜子中存放
+    \item 在抽屉或者柜子外做标记
+    \item 专用器皿使用前后一般不需要清洗
+    \item 对灰尘敏感的器皿，可以用铝箔封口
+    \end{enumerate}
+  \end{block}
+  \pause
+  这样做的好处有：
+  \begin{itemize}
+  \item 节省时间和精力
+  \pause
+  \item 避开灰尘
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{硬件：就近取用小工具}
+  \begin{block}{解决方案}
+    \begin{enumerate}
+    \item 将一次性移液管头放在移液器下面的抽屉中
+    \item 将搅拌子放在小微波盒里，放在电磁搅拌器下面的抽屉中
+    \item 将裁减好的滤纸放在小微波盒里，放在色谱仪下的抽屉中
+    \item 将称量纸放在小微波盒里，放在分析天平下的抽屉中
+    \item 将药匙放在小微波盒里，放在分析天平下的抽屉中
+    \item 将扳手等工具放在塑料盒子里，放在色谱仪下面的抽屉中
+    \item 将防热手套放在马弗炉、烘箱下的抽屉中
+    \item 将剪刀、封口膜、标签纸、电工胶带、文具集中放在篮子里，放在试验台上。
+    \end{enumerate}
+  \end{block}
+\end{frame}
+%
+\begin{frame}{硬件：就近取用小工具}
+  \begin{block}{每天观察烘箱一次}
+  对于非一次性的、且需要保持洁净的小工具，如药匙、电磁搅拌子等，应采取和玻璃器皿一样的清洗、还原方法。即用完洗净后放入烘箱中。每天应至少打开烘箱一次，把干燥的器皿和小工具放入原抽屉中。
+  \end{block}
+  这样做的好处有：
+  \begin{itemize}
+  \item 不用离开实验台面就能取用工具
+  \pause
+  \item 随时用到干净的工具
+  \pause
+  \item 文具、封口膜、胶带、标签纸等小物易找到不易丢失
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{软件：立即读到实验设备的使用说明}
+  \begin{block}{解决方案}
+    \begin{enumerate}
+    \item[1] 整理实验设备
+    如超低温冰箱、蒸馏水机、马弗炉、
+    紫外分光计、分析天平、真空干燥箱、
+    冻干机、Apex微波反应器、微型旋转蒸发仪、
+    旋转蒸发仪、烘箱、超声波细胞破碎仪、
+    pH计、离心机、冷冻离心机、低温摇床的使用说明。
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}{软件：立即读到实验设备的使用说明}
+ \begin{block}{解决方案}
+    \begin{enumerate}
+    \item[2] 提取基本的操作步骤，\textbf{打印到一页纸上}。纸张最大不超过A4。
+    \item[3] 分析天平、pH计应包括校正方法。或单独打印校正步骤。
+    \item[4] 将印有操作步骤的纸张过塑。
+    \item[5] 如果设备的正面或侧面有位置，则把操作步骤用透明胶带贴在设备上。
+    \item[6] 如果纸张太大，则把操作说明夹在硬质塑料文件夹板上，放在设备附近的台面上。
+    \end{enumerate}
+  \end{block}
+  \pause
+  这样做的好处有：
+  \begin{itemize}
+  \item 节省时间，用时立即获得准确的操作方法
+  \pause
+  \item 节省精力，不必要记住某些操作或校正方法。
+  \pause
+  \item 最大程度避免操作错误。
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{软件：立即读到水化学实验的操作指南}
+  \begin{block}{解决方案}
+    \begin{enumerate}
+    \item 根据书上的标准操作规程和实际情况，编辑一份易懂的操作指南
+    \item 如果没有编辑的时间，则直接复印书上的标准操作规程，如有必要，可以用笔修改
+    \item 打印或复印若干份，每一份放进一个文件夹里。
+    \item 文件夹外写上标题，目录。
+    \item 把文件夹放在LC-MS室的架子上。
+    \item 出差时可带走一份。
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}{软件：立即读到水化学实验的操作指南}
+  这样做的好处有：
+  \begin{itemize}
+  \item 节省记住方法的细节的精力
+  \pause
+  \item 最大程度避免操作错误。
+  \pause
+  \item 有标准操作规程、又不要求记录过程的实验，则可以只在实验笔记本上记录异常、结果和结果分析三部分，节省大量时间。
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{制度：在岸上试验室导入星期五清洁制}
+  \begin{block}{星期五清洁制度}
+  星期五清洁制度是若干人一起，每周做一次清洁（比如周五）。每周轮换某个人的任务。
+  \end{block}
+  \begin{exampleblock}{采用星期五清洁制度的例子}
+    \begin{itemize}
+    \item 比如某个星期五安排甲乙丙丁戊做清洁。
+
+    \item 甲换超声波仪的水
+
+    \item 乙换旋转蒸发仪的水
+
+    \item 丙处理有机废液
+
+    \item 丁整理试验台面
+
+    \item 戊清洗水槽
+
+    \item 到下一周的周五，每个人的工作会轮换
+    \end{itemize}
+  \end{exampleblock}
+\end{frame}
+
+\begin{frame}{制度：在岸上试验室导入星期五清洁制}
+这样做的好处是：
+  \begin{itemize}
+  \item 大部分清洁工作不需要每天去做
+  \pause
+  \item 每周找一段时间大家一起做，能有效地调动积极性
+  \pause
+  \item 节省时间
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{制度：导入分析天平、pH计校正制度}
+  \begin{block}{导入分析天平校正制度}
+    \begin{enumerate}
+    \item 找出砝码
+    \item 打印分析天平校正记录表
+    \item 把校正记录表夹到天平校正步骤的硬塑料文件夹板上
+    \item 每张校正记录表可以填写1个月
+    \item 每天第一个使用分析天平的人，要用砝码反测分析天平，看是否在容许值内
+    \item 如果需要校正，则按校正步骤进行校正
+    \item 填写校正记录，如果不用校正，填写砝码的反测值
+    \item 如果校正过，要填写校正后砝码的反测值。
+    \item 用完天平后不需要关机，每日试验完毕后关机
+    \item 每天校正步骤需花费2-5分钟。
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}{制度：导入分析天平、pH计校正制度}
+  这样做的好处有：
+  \begin{itemize}
+  \item 以1天1人2－5分钟的极低成本换取数据的准确
+  \pause
+  \item 及时发现分析天平的故障
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{制度：导入分析天平、pH计校正制度}
+  \begin{block}{导入pH计校正制度}
+    \begin{enumerate}
+    \item 找出标准缓冲溶液
+    \item 打出pH计校正记录表
+    \item 把校正记录表夹到pH计校正步骤的硬塑料文件夹板上
+    \item 每张校正记录表可以填写1－6个月
+    \item 每个使用pH计的人，要先用标准缓冲溶液校正pH计
+    \item 校正完毕后，填写校正记录
+    \item 每次校正步骤需要5分钟
+    \end{enumerate}
+  \end{block}
+  \pause
+  这样做的好处有：
+  \begin{itemize}
+  \item 以1次5分钟的极低成本换取数据的准确
+  \pause
+  \item 及时发现pH计的故障
+  \end{itemize}
+\end{frame}
+
+\section{总结}
+
+\begin{frame}{中心思想：不要在不需要创造力的地方发挥创造力!}
+对岸上试验室进行便利化和规范化改进，其目的是：
+  \begin{itemize}
+  \item
+    \alert{让试验过程消耗大家最小的时间、体力和脑力}。
+  \pause
+  \item
+    \alert{让思维定势来主导试验中不需要创造力的部分}。
+  \pause
+  \item
+    \alert{让大家把精力集中到创造性环节中}。
+  \pause
+  \item
+    \alert{不让可疑的数据来分散脑力和消耗时间}。
+  \end{itemize}
+  
+\pause
+  % The following outlook is optional.
+  \vskip0pt plus.5fill
+  \begin{itemize}
+  \item
+    下阶段工作展望
+    \begin{itemize}
+    \item
+      继续向大家学习各方面的理论和实践知识。
+    \item
+      逐步推进岸上试验室的改进工作。
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+% All of the following is optional and typically not needed. 
+
+\end{SC}
+\end{CJK}
+\end{document}
